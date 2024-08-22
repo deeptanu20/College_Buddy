@@ -20,7 +20,7 @@ const sendMessage=async(req,res)=>{
    }
 }
 
-module.exports=sendMessage;
+
 
 const getMessages =async(req,res)=>{
  try {
@@ -36,4 +36,4 @@ const getMessages =async(req,res)=>{
  }
 }
 
-module.exports=getMessages;
+module.exports={sendMessage,getMessages};

@@ -22,7 +22,7 @@ const uploadMaterial =async(req,res)=>{
     }
 }
 
-module.exports=uploadMaterial;
+
 
 const getMaterials= async(req,res)=>{
     try {
@@ -37,4 +37,4 @@ const getMaterials= async(req,res)=>{
     }
 }
 
-module.exports=getMaterials;
+module.exports={uploadMaterial,getMaterials};
